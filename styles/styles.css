@@ -60,3 +60,9 @@ nav {
     display: flex;
     justify-content: center;
 }
+.banner{
+    margin: 50px 200px 50px 200px;
+    width: 900px;
+    height: 500px;
+
+}
