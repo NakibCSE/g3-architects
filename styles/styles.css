@@ -6,6 +6,17 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.btn-primary {
+    background-color: #FF900E;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 8px;
+    width: 180px;
+    height: 64px;
+    border-color: #FF900E;
+    justify-content: center;
+}
+
 /* Header section's style */
 header {
     background-color: rgba(255, 144, 14, 0.1);
@@ -33,13 +44,19 @@ nav {
     margin-top: 30px;
     color: #424242;
 }
-.description-title{
+.description-title {
     margin: 100px 380px 20px 380px;
     text-align: center;
 }
-.description-text{
+
+.description-text {
     font-size: 14px;
     margin: 0 280px;
     text-align: center;
     color: #727272;
+}
+.description-btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
