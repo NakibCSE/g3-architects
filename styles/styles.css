@@ -77,3 +77,16 @@ nav {
 .team{
     margin: 15px;
 }
+.quick-list-text{
+    color: #727272;
+}
+.features-text{
+    color: #FF900E;
+}
+.feature-description{
+    color: #727272;
+    margin-right: 300px;
+}
+.quick-feature-list{
+    margin-top: 220px;
+}
