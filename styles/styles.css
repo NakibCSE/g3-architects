@@ -66,3 +66,14 @@ nav {
     justify-content: center
 
 }
+
+/* Features list styles */
+.feature-list{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 85px;
+    margin-left: 300px
+}
+.team{
+    margin: 15px;
+}
