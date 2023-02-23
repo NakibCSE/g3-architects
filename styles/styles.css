@@ -5,11 +5,13 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
-.container{
+
+.container {
     background-color: rgba(255, 144, 14, 0.1);
     width: 100%;
     height: 1300;
 }
+
 .btn-primary {
     background-color: #FF900E;
     color: #FFFFFF;
@@ -43,6 +45,7 @@ nav {
     margin-top: 30px;
     color: #424242;
 }
+
 .description-title {
     margin: 100px 380px 20px 380px;
     text-align: center;
@@ -54,39 +57,84 @@ nav {
     text-align: center;
     color: #727272;
 }
-.description-btn{
+
+.description-btn {
     margin-top: 20px;
     display: flex;
     justify-content: center;
 }
-.banner{
+
+.banner {
     margin: 50px 200px 50px 200px;
     width: 80%;
     height: 1000px;
     justify-content: center
-
 }
 
 /* Features list styles */
-.feature-list{
+.feature-list {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     margin-top: 85px;
     margin-left: 300px
 }
-.team{
+
+.team {
     margin: 15px;
 }
-.quick-list-text{
+
+.quick-list-text {
     color: #727272;
 }
-.features-text{
+
+.features-text {
     color: #FF900E;
 }
-.feature-description{
+
+.feature-description {
     color: #727272;
     margin-right: 300px;
 }
-.quick-feature-list{
+
+.quick-feature-list {
     margin-top: 220px;
+}
+
+/* Feature you will love and enjoy */
+.loveable-feature {
+    margin-right: 1000px;
+}
+
+.loveable-feature p {
+    color: #727272;
+}
+
+.feature-love-enjoy {
+    margin: 100px 0 0 280px;
+}
+
+.love-enjoy-heading {
+    display: flex;
+}
+
+.vl {
+    border-left: 4px solid #FF900E;
+    height: 80px;
+}
+
+.love-enjoy-heading-text {
+    margin-left: 30px;
+}
+
+.features {
+    margin: 30px 0 30px 30px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+}
+
+.about-feature {
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-bottom: 25px;
 }
