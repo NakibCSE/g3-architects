@@ -158,15 +158,17 @@ nav {
 }
 
 /* Some facts styles */
-.some-facts{
+.some-facts {
     margin-left: 200px;
-    
+
 }
-.some-facts p{
+
+.some-facts p {
     color: #727272;
     margin-right: 800px;
 }
-.some-fact-icon{
+
+.some-fact-icon {
     border: 1px solid #FF900E;
     display: flex;
     justify-content: center;
@@ -174,10 +176,12 @@ nav {
     flex-direction: column;
     padding: 20px;
 }
-.some-fact-icon p{
+
+.some-fact-icon p {
     color: #727272;
 }
-.some-fact-container{
+
+.some-fact-container {
     margin-top: 40px;
     display: flex;
     justify-content: space-around;
@@ -185,18 +189,35 @@ nav {
 }
 
 /* Our sponsors styles */
-.sponsor-description{
+.sponsor-description {
     text-align: center;
-    
+
 }
-.sponsor-description p{
+
+.sponsor-description p {
     color: #727272;
 }
-.sponsors-icon{
+
+.sponsors-icon {
     display: flex;
     justify-content: space-around;
     filter: grayscale(100%);
 }
-.sponsors-container{
+
+.sponsors-container {
     margin-top: 200px;
+}
+
+/* footer styles  */
+footer {
+    color: #424242;
+    background-color: #FFF4E7;
+    width: 1000px;
+    height: 100px;
+    border-radius: 8px;
+    margin-left: 200px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
