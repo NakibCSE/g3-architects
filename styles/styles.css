@@ -183,3 +183,20 @@ nav {
     justify-content: space-around;
 
 }
+
+/* Our sponsors styles */
+.sponsor-description{
+    text-align: center;
+    
+}
+.sponsor-description p{
+    color: #727272;
+}
+.sponsors-icon{
+    display: flex;
+    justify-content: space-around;
+    filter: grayscale(100%);
+}
+.sponsors-container{
+    margin-top: 200px;
+}
